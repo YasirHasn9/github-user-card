@@ -1,33 +1,15 @@
-# Module Project: Component Lifecycle Methods - React Github User Card
 
-This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored lifecycle methods in class components. In your project you will demonstrate proficiency of these concepts by recreating the Github User Card project, but as a React application this time.
 
-## Introduction
+This project explored lifecycle methods in class components. In this project, I create the Github User Card project.
 
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this project.**
-
-### Commits
-
-Commit your code regularly and meaningfully. This helps you and any collaborators in case you ever need to return to old code for any number of reasons.
-
-## Instructions
-
-### Task 1: Project Set Up
+### Project Set Up
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository in your terminal
 - [ ] Use CRA to create a new React app in this repository
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
 
-Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into main (student's Repository). **Please don't merge your own pull request**
-- [ ] From the home page of your repo, make sure you have your branch selected
-- [ ] Copy the URL and paste it into Canvas
-
-### Task 2: Minimum Viable Product
+### Minimum Viable Product
 
 - [ ] Fetch data from the Github API for a Github user
 - [ ] Display the user data on the DOM
@@ -36,8 +18,6 @@ Follow these steps for completing your project.
 #### Planning your App
 
 This is an important step for any project you will be working on. You will want to plan out what data you will need, which component will manage that data via state, what functions you may need to update that state, and where you need to pass the data to render it to the DOM. I love to use pen and paper or a whiteboard for this. The visuals can help a lot when you're deep into your code. After I finish that, I will write out a list of steps that I think it will take to build the app. This gives me a starting point, and direction as I proceed. This list always changes a bit as you are building, but it should give you a good flow and some good anchor points.
-
-Also, since you have used the Github API before, you know some of the gotchas. Make sure to plan and watch for those.
 
 When you have those completed, you're ready to start coding!
 
@@ -61,7 +41,6 @@ When you have those completed, you're ready to start coding!
 
 #### Style the User Card
 
-- Now it's time to style up your app
 - You are free to choose how you style your app, but make it look as presentable as you can
 - Try something new here. Maybe that's a new CSS technique you haven't really practiced yet. Maybe it's using a styling library you haven't tried. Push yourself to get better in this area.
 
@@ -76,9 +55,3 @@ After finishing your required elements, you can push your work further. These go
 - Build a form that allows you to search for different Github users. When the form is submitted, use `componentDidUpdate` to fetch the data for the user you typed in. Set that new user's data to state to trigger the component to rerender and display your new user. Don't forget to fetch their followers as well.
 
 - Look into adding your GitHub contribution graph. There are a number of different ways of doing this, this Stack Overflow discussion will get you started: https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website
-
-## Submission Format
-
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into `main` (student's Repository). **Please don't merge your own pull request**
-- [ ] From the home page of your repo, make sure you have your branch selected
-- [ ] Copy the URL and paste it into Canvas to submit your project
